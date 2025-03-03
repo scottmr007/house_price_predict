@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Setup Project",
+            "type": "shell",
+            "command": "python -m venv venv && echo '# Project Title' > README.md && .\\venv\\Scripts\\activate && pip install -r requirements.txt",
+            "problemMatcher": []
+        }
+    ]
+}
+
